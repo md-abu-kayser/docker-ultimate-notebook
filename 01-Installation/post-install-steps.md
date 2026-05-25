@@ -99,4 +99,4 @@ docker pull node:18-alpine
 - [Docker Forums](https://forums.docker.com/)
 - [Docker Slack & Discord](https://www.docker.com/community/)
 
-> 📘 Ready to dive in? Head over to **02‑Docker‑Basics** starting with [Docker Architecture](architecture.md)
+> 📘 Ready to dive in? Head over to **02‑Docker‑Basics** starting with [Docker Architecture](02-Docker-Basics/architecture.md)
