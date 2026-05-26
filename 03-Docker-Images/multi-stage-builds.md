@@ -82,4 +82,6 @@ EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 ```
 
-> 📘 Next: **04‑Docker‑Compose** – starting with [Compose Basics](../04-Docker-Compose/compose-basics.md)
+> 🎉 Congratulations! You’ve completed the **Docker Images** section.
+
+> 📘 Ready to dive in? Head over to **04-Docker-Compose** starting with [Compose Basics](../04-Docker-Compose/compose-basics.md)
