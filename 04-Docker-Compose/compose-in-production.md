@@ -63,4 +63,6 @@ Use `docker compose logs` for quick checks. For production, integrate with:
 - Need multi‑host, auto‑scaling, zero‑downtime deployments, advanced networking, or service discovery.
 - Compose can still be used for local development and CI while the same images are deployed to K8s.
 
-> 📘 Next: **05‑Docker‑Networking** – starting with [Network Drivers Overview](../05-Docker-Networking/network-drivers-overview.md)
+> 🎉 Congratulations! You’ve completed the **Docker Compose** section.
+
+> 📘 Ready to dive in? Head over to **05-Docker-Networking** starting with [Network Drivers Overview](../05-Docker-Networking/network-drivers-overview.md)
