@@ -13,4 +13,4 @@
 
 These tools together make Docker the most complete container platform.
 
-> 📘 Next: [01 – Installation](01-Installation/linux-installation.md)
+> 📘 Ready to dive in? Head over to **01-Installation** starting with [Docker Installation](../01-Installation/linux-installation.md)
