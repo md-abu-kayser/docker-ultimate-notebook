@@ -105,6 +105,4 @@ services:
 
 > 🎉 Congratulations! You’ve completed the **Docker Basics** section.
 
-Next, move into **03-Docker-Images**, where you’ll learn how to build efficient, optimized, and secure Docker images.
-
-📘 Start here: [Docker Architecture](../02-Docker-Basics/architecture.md)
+> 📘 Ready to dive in? Head over to **03-Docker-Images** starting with [Docker Images](../03-Docker-Images/images-deep-dive.md).
