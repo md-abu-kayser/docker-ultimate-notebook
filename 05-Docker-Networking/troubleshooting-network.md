@@ -57,4 +57,6 @@ Embedded DNS server is at `127.0.0.11`. All queries to it are forwarded to the h
 
 Docker modifies `iptables`. Using `ufw` with Docker often causes conflicts. If using `ufw`, set `DEFAULT_FORWARD_POLICY="ACCEPT"` in `/etc/default/ufw`.
 
-> 📘 Next: **06‑Docker‑Storage** – starting with [Volumes vs Bind Mounts](../06-Docker-Storage/volumes-vs-bind-mounts.md)
+> 🎉 Congratulations! You’ve completed the **Docker Networking** section.
+
+> 📘 Ready to dive in? Head over to **06‑Docker‑Storage** starting with [Volumes vs Bind Mounts](../06-Docker-Storage/volumes-vs-bind-mounts.md)
