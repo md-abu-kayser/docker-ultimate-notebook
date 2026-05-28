@@ -1,0 +1,107 @@
+site_name: Docker Ultimate Notebook
+site_url: http://localhost:8080
+nav:
+  - Home: README.md
+  - Introduction:
+      - What is Docker: 00-Introduction/what-is-docker.md
+      - Why Docker: 00-Introduction/why-docker.md
+      - Docker vs VM: 00-Introduction/docker-vs-vm.md
+      - Ecosystem: 00-Introduction/ecosystem-overview.md
+  - Installation:
+      - Linux: 01-Installation/linux-installation.md
+      - Mac: 01-Installation/mac-installation.md
+      - Windows: 01-Installation/windows-installation.md
+      - Post-install: 01-Installation/post-install-steps.md
+  - Docker Basics:
+      - Architecture: 02-Docker-Basics/architecture.md
+      - Images & Containers: 02-Docker-Basics/images-and-containers.md
+      - First Container: 02-Docker-Basics/your-first-container.md
+      - Basic Commands: 02-Docker-Basics/basic-commands.md
+      - Lifecycle: 02-Docker-Basics/container-lifecycle.md
+      - Port Mapping: 02-Docker-Basics/port-mapping.md
+      - Environment Variables: 02-Docker-Basics/environment-variables.md
+  - Docker Images:
+      - Deep Dive: 03-Docker-Images/images-deep-dive.md
+      - Dockerfile Basics: 03-Docker-Images/dockerfile-basics.md
+      - Instructions Reference: 03-Docker-Images/dockerfile-instructions-reference.md
+      - Build Context: 03-Docker-Images/build-context-and-ignore.md
+      - Tagging: 03-Docker-Images/tagging-strategies.md
+      - Layers & Caching: 03-Docker-Images/layers-and-caching.md
+      - Multi-stage Builds: 03-Docker-Images/multi-stage-builds.md
+  - Docker Compose:
+      - Basics: 04-Docker-Compose/compose-basics.md
+      - Services & Healthchecks: 04-Docker-Compose/services-dependencies-and-healthchecks.md
+      - Volumes & Networks: 04-Docker-Compose/volumes-and-networks.md
+      - Environment Config: 04-Docker-Compose/environment-configuration.md
+      - Overrides: 04-Docker-Compose/overrides-and-multiple-files.md
+      - Compose in Production: 04-Docker-Compose/compose-in-production.md
+  - Networking:
+      - Drivers Overview: 05-Docker-Networking/network-drivers-overview.md
+      - Bridge: 05-Docker-Networking/bridge-networks.md
+      - Overlay: 05-Docker-Networking/overlay-networks.md
+      - Host/Macvlan/IPvlan: 05-Docker-Networking/host-macvlan-ipvlan.md
+      - Troubleshooting: 05-Docker-Networking/troubleshooting-network.md
+  - Storage:
+      - Volumes vs Bind Mounts: 06-Docker-Storage/volumes-vs-bind-mounts.md
+      - Named Volumes: 06-Docker-Storage/named-volumes.md
+      - tmpfs: 06-Docker-Storage/tmpfs-mounts.md
+      - Storage Drivers: 06-Docker-Storage/storage-drivers.md
+      - Data Persistence: 06-Docker-Storage/data-persistence.md
+  - Security:
+      - Best Practices: 07-Docker-Security/security-best-practices.md
+      - Non-root User: 07-Docker-Security/non-root-user.md
+      - Capabilities/Seccomp: 07-Docker-Security/capabilities-seccomp-apparmor.md
+      - Read-only FS: 07-Docker-Security/read-only-filesystem.md
+      - Content Trust: 07-Docker-Security/content-trust-and-image-signing.md
+      - Scanning: 07-Docker-Security/scanning-for-vulnerabilities.md
+      - Secrets: 07-Docker-Security/secrets-management.md
+      - Rootless: 07-Docker-Security/rootless-docker.md
+  - Development Workflow:
+      - Local Dev with Compose: 08-Development-Workflow/local-dev-with-compose.md
+      - Hot Reload & Debug: 08-Development-Workflow/hot-reload-and-debugging.md
+      - Remote Containers: 08-Development-Workflow/remote-containers-with-vscode.md
+      - Testing: 08-Development-Workflow/testing-strategies.md
+  - CI/CD:
+      - Building in CI: 09-CICD-with-Docker/building-images-in-ci.md
+      - GitHub Actions: 09-CICD-with-Docker/github-actions-pipeline.md
+      - GitLab CI: 09-CICD-with-Docker/gitlab-ci-pipeline.md
+      - Jenkins: 09-CICD-with-Docker/jenkins-pipeline.md
+  - Swarm:
+      - Concepts: 10-Docker-Swarm/swarm-concepts.md
+      - Setup: 10-Docker-Swarm/cluster-setup.md
+      - Services & Stacks: 10-Docker-Swarm/services-and-stacks.md
+      - Networking: 10-Docker-Swarm/networking-in-swarm.md
+      - Secrets & Configs: 10-Docker-Swarm/secrets-and-configs.md
+      - Placement: 10-Docker-Swarm/placement-and-constraints.md
+      - Rolling Updates: 10-Docker-Swarm/rolling-updates-and-rollback.md
+      - Scaling: 10-Docker-Swarm/scaling-and-load-balancing.md
+      - Maintenance: 10-Docker-Swarm/maintenance-and-troubleshooting.md
+  - Monitoring & Logging:
+      - Logging Drivers: 11-Monitoring-and-Logging/docker-logging-drivers.md
+      - ELK Stack: 11-Monitoring-and-Logging/centralized-logging-with-elk.md
+      - Prometheus & Grafana: 11-Monitoring-and-Logging/monitoring-with-prometheus-grafana.md
+      - Health Checks: 11-Monitoring-and-Logging/health-checks.md
+  - Advanced:
+      - BuildKit & Buildx: 12-Advanced-Docker/buildkit-and-buildx.md
+      - Multi-Arch: 12-Advanced-Docker/multi-arch-images.md
+      - Resource Limits: 12-Advanced-Docker/resource-limits-cgroups.md
+      - Init Processes: 12-Advanced-Docker/init-processes-and-tini.md
+      - API & SDKs: 12-Advanced-Docker/docker-api-and-sdks.md
+  - Production:
+      - Production Dockerfile: 13-Production-Readiness/production-dockerfile.md
+      - Tagging Strategy: 13-Production-Readiness/image-tagging-strategy.md
+      - Restart Policies: 13-Production-Readiness/restart-policies.md
+      - Zero Downtime: 13-Production-Readiness/zero-downtime-deployment.md
+      - Backup & Restore: 13-Production-Readiness/backup-and-restore.md
+      - Capacity Planning: 13-Production-Readiness/capacity-planning.md
+  - Beyond Docker:
+      - K8s vs Swarm: 14-Beyond-Docker/kubernetes-vs-swarm.md
+      - Docker to K8s: 14-Beyond-Docker/docker-to-kubernetes.md
+      - Podman: 14-Beyond-Docker/podman-and-alternatives.md
+  - Cheatsheets:
+      - CLI: 99-Cheatsheets/docker-cli-cheatsheet.md
+      - Dockerfile: 99-Cheatsheets/dockerfile-cheatsheet.md
+      - Compose: 99-Cheatsheets/docker-compose-cheatsheet.md
+
+theme:
+  name: material
