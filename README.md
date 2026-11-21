@@ -79,7 +79,7 @@ The repository is organized as a guided notebook with standalone chapters:
 
 ---
 
-### Contact and Maintainer
+### Contact & Maintainer
 
 - **Name:** Md Abu Kayser
 - **Project:** _docker-ultimate-notebook_
